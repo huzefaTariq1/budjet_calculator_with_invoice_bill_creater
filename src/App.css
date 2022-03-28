@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+
+
+
+
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  
+body{
+  background-color: rgb(240, 240, 240);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.calultorbox{
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 0 3px 10px rgb(95, 94, 94);
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inputfields{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  
+}
+
+
+
+.inputs{
+   margin-left: 20px;
+   width: 47%;
+
+}
+
+.inputs input{
+  border: none;
+  border-bottom: 1px solid rgb(185, 178, 178);
+  padding: 10px;
+  width: 100%;
+ 
+}
+
+
+.itemshow{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid rgb(185, 178, 178);
+  padding: 10px;
+  border-radius: 3px;
+  margin: 10px 20px;
+}
+
+h1{
+  text-align: center;
+  margin: 20px 0;
+  color: rgb(51, 51, 255);;
+}
+
+.icon{
+  display: flex;
+
+}
+
+.icon button{
+  margin: 0 5px;
+}
+button{
+  padding: 3px;
+  background-color: rgb(51, 51, 255);
   color: white;
+  font-weight: bold;
+  border: none;
+
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn12{
+  padding: 10px;
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn1{
+  padding: 10px;
+  margin-top: 5px;
+  
+  
 }
+.i1{
+  background-color: white;
+  color:rgb(51, 51, 255) ;
+}
+
+
+table{
+  width: 100%;
+  
+}
+
+table, th, td {
+  border:1px solid black;
+  padding: 10px;
+  
+}
+
